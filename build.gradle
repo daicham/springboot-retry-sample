@@ -23,8 +23,6 @@ repositories {
 dependencies {
     compile("org.springframework.boot:spring-boot-devtools")
     compile('org.springframework.retry:spring-retry')
-    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework.boot:spring-boot-starter-web')
-    compileOnly('org.projectlombok:lombok')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile("org.springframework.boot:spring-boot-starter-aop")
 }
